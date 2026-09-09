@@ -18,6 +18,12 @@
 
     public void AtlagSzamolas()
     {
+        if (jegyek.Count == 0)
+        {
+            Console.WriteLine("A jegyek száma 0, és nullával nem osztunk!");
+            return;
+        }
+
         int osszeg = 0;
         foreach (var j in jegyek)
         {
