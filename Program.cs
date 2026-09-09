@@ -32,7 +32,7 @@
 
 class Program
 {
-    static void Main ()
+    internal static void Main()
     {
         Diak diak1 = new Diak("Kovács Péter");
 
