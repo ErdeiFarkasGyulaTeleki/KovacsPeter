@@ -1,7 +1,14 @@
 ﻿class Diak
 {
-    public string nev;
-    public int eletkor;
+    public string nev { get; set; }
+    public int eletkor
+    {
+        get;
+        set
+        {
+            if (value < 1) field = 1;
+        }
+    }
     public List<int> jegyek = new List<int>();
 
     public Diak(string n)
