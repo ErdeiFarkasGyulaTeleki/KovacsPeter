@@ -24,11 +24,8 @@
             return;
         }
 
-        int osszeg = 0;
-        foreach (var j in jegyek)
-        {
-            osszeg += j;
-        }
+        float osszeg = jegyek.Sum();
+
         Console.WriteLine(nev + " átlaga: " + (osszeg / jegyek.Count));
     }
 }
