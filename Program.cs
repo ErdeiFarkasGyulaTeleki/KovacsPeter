@@ -2,7 +2,7 @@
 {
     public string nev;
     public int eletkor;
-    public List<int> jegyek;
+    public List<int> jegyek = new List<int>();
 
     public Diak(string n)
     {
